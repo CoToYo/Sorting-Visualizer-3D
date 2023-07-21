@@ -54,7 +54,7 @@ export default class SortingVisualizer extends Component {
       // ## Generates an element between 5 and 70, and pushes it into the array. ## //
       array.push(randomIntFromInterval(5, 70));
     }
-    playAudio(ResetEffect);
+    // playAudio(ResetEffect);
     this.setState({ array: array });
   }
 

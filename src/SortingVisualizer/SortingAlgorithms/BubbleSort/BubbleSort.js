@@ -27,13 +27,13 @@ const BubbleSort = (array, animationSpeed) => {
     const promise1 = new Promise(function (resolve, reject) {
       setTimeout(() => {
         // Changing the color-bar of comparing elements.
-        changeBackgroundColor(comparingElement1, "rgba(255,165,0, 0.9)");
-        changeBackgroundColor(comparingElement2, "rgba(255,165,0, 0.9)");
+        changeBackgroundColor(comparingElement1, "rgba(1, 13, 19, 0.727)");
+        changeBackgroundColor(comparingElement2, "rgba(1, 13, 19, 0.727)");
 
         if (doSwap === true) {
           // Changing the color-bar of elements which has to be swapped.
-          changeBackgroundColor(comparingElement1, "rgba(144,238,144, 0.9)");
-          changeBackgroundColor(comparingElement2, "rgba(144,238,144, 0.9)");
+          changeBackgroundColor(comparingElement1, "rgba(1, 13, 19, 0.727)");
+          changeBackgroundColor(comparingElement2, "rgba(1, 13, 19, 0.727)");
           // Actually swapping the elements (heights).
           swapBars(comparingElement1, comparingElement2);
         }
@@ -48,15 +48,15 @@ const BubbleSort = (array, animationSpeed) => {
       setTimeout(() => {
         if (isFinalElement === true) {
           // Changing the color-bar of finalElement index which has taken its final sorted position.
-          changeBackgroundColor(finalElement, "rgba(0, 164, 86, 0.6)");
+          changeBackgroundColor(finalElement, "rgba(1, 13, 19, 0.727)");
           changeBoxShadow(
             finalElement,
-            "5px 5px 50px 5px  rgba(0, 164, 86, 0.2)"
+            "5px 5px 50px 5px  rgba(1, 13, 19, 0.727)"
           );
         } else {
           // Changing the color-bar of element which has not taken its final sorted position yet.
-          changeBackgroundColor(comparingElement1, "rgba(225, 0, 120, 0.6)");
-          changeBoxShadow(comparingElement1, "rgba(225, 0, 120, 0.2)");
+          changeBackgroundColor(comparingElement1, "rgba(255, 255, 0, 1)");
+          changeBoxShadow(comparingElement1, "rgba(255, 255, 0, 1)");
         }
         // From "getBubbleSortAnimations" function, we know that the array is sorted when finalElement is 0.
         // Resolving the promise when the finalElement index is 0.

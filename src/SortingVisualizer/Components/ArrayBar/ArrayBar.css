@@ -48,13 +48,13 @@
   height: 4vw;
   transform-origin: top;
   transform: translateY(70vh) rotateX(-90deg);
-  background-color: rgba(225, 0, 120, 0.5);
-  box-shadow: 5px 5px 50px 5px rgba(225, 0, 120, 0.2);
+  background-color: rgba(1, 13, 19, 0.727);
+  box-shadow: 5px 5px 50px 5px rgba(1, 13, 19, 0.727);
   transition: 0.3s;
 }
 
 .color-bar {
-  background-color: rgba(225, 0, 120, 0.5);
-  box-shadow: 5px 5px 50px 5px rgba(225, 0, 120, 0.2);
+  background-color: rgba(1, 13, 19, 0.727);
+  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.062);
   transition: 0.3s;
 }
